@@ -8,7 +8,7 @@ type Props= {
 
 const ModalMenu = ({ onClick }:Props) => {
   return (
-    <div className="fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-white text-gray-900">
+    <div className="fixed top-0 bottom-0 left-0 right-0 flex justify-center items-center bg-white text-gray-900 z-40">
       <X 
         className="absolute top-4 right-4 cursor-pointer"
         onClick={onClick}
