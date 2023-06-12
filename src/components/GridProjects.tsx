@@ -3,39 +3,48 @@ import React from 'react'
 
 export const GridProjects = () => {
   return (
+
     <div className='flex flex-col mt-[100px] max-w-[830px] gap-12 w-full font-light text-gray-300'>
       <div className='flex flex-col bg-white shadow-box-proj rounded-lg md:flex-row md:items-center'>
-        <div className='bg-slate-700 md:w-[50%] h-[300px] rounded-lg'>
+        <div className='md:min-w-[50%] h-[200px] rounded-lg relative'>
+          <Image src="/todo.svg" alt="Lista de tarefas com ReactJs" 
+          fill
+          className="object-contain rounded-lg pt-10 md:p-0" />
         </div>
         <div className='flex flex-col items-center justify-between p-8 text-center'>
           <div className='md:mt-12'>
-            <h3 className='text-xl font-semibold mb-2 text-gray-500'>Nome do Projeto</h3>
-            <p className='text-gray-300'>Lorem ipset, ducimus magni, molestiae iusto</p>
+            <h3 className='text-2xl font-bold mb-2 text-gray-500'>TO DO React</h3>
+            <p className='text-gray-300'>Uma lista de tarefa simples feita com React/NextJs, TypeScript e Styled-Components.</p>
           </div>
-          <a className='font-bold cursor-pointer text-white bg-gradient-to-r from-cyan-500 shadow-box-proj to-blue-500 mt-12 py-3 w-full rounded-xl text-xs tracking-widest hover:opacity-[0.9] duration-150'>VER PROJETO</a>
+          <a href="https://github.com/cesarsdcf/todo-react" className='font-bold cursor-pointer text-white bg-gradient-to-r from-orange-700 shadow-box-proj to-orange-500 mt-12 py-3 w-full rounded-xl text-xs tracking-widest hover:opacity-[0.9] duration-150'>VER PROJETO</a>
         </div>
       </div>
-      <div className='flex flex-col-reverse bg-white shadow-box-proj rounded-lg md:flex-row md:items-center justify-between'>
-        <div className='flex flex-col items-center justify-between p-8 text-center'>
-          <div className='md:mt-12'>
-            <h3 className='text-xl font-semibold mb-2 text-gray-500'>Nome do Projeto</h3>
-            <p className='text-gray-300'>Lorem ipset, ducimus magni, molestiae iusto</p>
-          </div>
-          <a className='font-bold text-white cursor-pointer bg-gradient-to-r from-pink-500 to-yellow-500 shadow-box-proj mt-12 py-3 w-full rounded-xl text-xs tracking-widest hover:opacity-[0.9] duration-150'>VER PROJETO</a>
-        </div>
-        <div className='bg-slate-700 md:w-[50%] h-[300px] rounded-lg'>
 
-        </div>
-      </div>
-      <div className='flex flex-col bg-white shadow-box-proj rounded-lg md:flex-row md:items-center'>
-        <div className='relative bg-slate-700 md:w-[50%] h-[300px] rounded-lg'>
+
+      <div className='flex flex-col bg-white shadow-box-proj rounded-lg md:flex-row-reverse md:items-center justify-between'>
+        <div className='md:min-w-[50%] h-[300px] rounded-lg relative'>
+          <Image src="/netflix-logo.png" alt="Clone da Interface do Nextflix" fill className="object-contain rounded-lg" />
         </div>
         <div className='flex flex-col items-center justify-between p-8 text-center'>
           <div className='md:mt-12'>
-            <h3 className='text-xl font-semibold mb-2 text-gray-500'>Nome do Projeto</h3>
-            <p className='text-gray-300'>Lorem ipset, ducimus magni, molestiae iusto</p>
+            <h3 className='text-3xl font-bold mb-2 text-gray-500'>Clone UI da Netflix </h3>
+            <p className='text-gray-300'>Um clone da interface do Netflix usando React/Nextjs, TypeScript, Styled-Components e usando a API do TMDB.</p>
           </div>
-          <a className='font-bold cursor-pointer text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-box-proj mt-12 py-3 w-full rounded-xl text-xs tracking-widest hover:opacity-[0.9] duration-150'>VER PROJETO</a>
+          <a href="https://github.com/cesarsdcf/clone-netflix/" className='font-bold text-white cursor-pointer bg-gradient-to-r from-red-500 to-red-700 shadow-box-proj mt-12 py-3 w-full rounded-xl text-xs tracking-widest hover:opacity-[0.9] duration-150'>VER PROJETO</a>
+        </div>
+      </div>
+
+
+      <div className='flex flex-col bg-white shadow-box-proj rounded-lg md:flex-row md:items-center'>
+        <div className='relative md:min-w-[50%] h-[300px] rounded-lg'>
+          <Image src="/form.png" alt="Clone da Interface do Nextflix" fill className="object-contain rounded-lg p-12" />
+        </div>
+        <div className='flex flex-col items-center justify-between p-8 text-center'>
+          <div className='md:mt-12'>
+            <h3 className='text-xl font-semibold mb-2 text-gray-500'>Formulário com Etapas</h3>
+            <p className='text-gray-300'>Um formulário com multi etapas feita com React/NextJs, TypeScript e Styled-Components.</p>
+          </div>
+          <a href="clone-netflix-cesarsdcf.vercel.app" className='font-bold cursor-pointer text-white bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 shadow-box-proj mt-12 py-3 w-full rounded-xl text-xs tracking-widest hover:opacity-[0.9] duration-150'>VER PROJETO</a>
         </div>
       </div>
     </div>

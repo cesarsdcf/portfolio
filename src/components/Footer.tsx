@@ -10,17 +10,17 @@ export const Footer = () => {
       <footer className="bg-blue-950 text-gray-50 h-64 flex flex-col justify-center items-center">
         <ButtonContact />
         <div className="flex mt-8 justify-center items-center gap-9">
-          <div className="bg-white p-2 rounded-full text-gray-600 hover:bg-gray-50 cursor-pointer">
+          <div className="text-white hover:text-zinc-500 cursor-pointer">
             <Link target="_blank" href="https://www.instagram.com/cesarsdcf/">
               <Instagram />
             </Link>
           </div>
-          <div className="bg-white p-2 rounded-full text-gray-600 hover:bg-gray-50 cursor-pointer">
+          <div className="text-white hover:text-zinc-500 cursor-pointer">
             <Link target="_blank" href="https://www.linkedin.com/in/cesar-silva-950126232/">
               <Linkedin />
             </Link>
           </div>
-          <div className="bg-white p-2 rounded-full text-gray-600 hover:bg-gray-50 cursor-pointer">
+          <div className="text-white hover:text-zinc-500 cursor-pointer">
           <Link target="_blank" href="https://github.com/cesarsdcf">
             <Github />
           </Link>

@@ -21,7 +21,7 @@ const Header = () => {
         </Link>
         <div className="hidden md:flex items-center ">
           <ul className="flex gap-8 text-xs tracking-widest">
-            <li><Link href="#about" className="hover:text-gray-50 text-gray-200 duration-100">ABOUT</Link></li>
+            <li><Link href="#about" className="hover:text-gray-50 text-gray-200 duration-100">SOBRE MIM</Link></li>
             <li><Link href="#tecs" className="hover:text-gray-50 text-gray-200 duration-100">TECNOLOGIAS</Link></li>
             <li><Link href="#projects" className="hover:text-gray-50 text-gray-200 duration-100">PROJETOS</Link></li>
           </ul>
@@ -30,7 +30,7 @@ const Header = () => {
       </div>
       <div className="flex flex-col h-full justify-center items-center ">
         <h1 className="font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center text-white">Olá, Meu nome é <br />Cesar Silva</h1>
-        <p className="mt-6 text-lg text-center max-w-3xl mx-auto text-slate-400">e sou desenvolvedor <span className="text-white">Front End</span></p>
+        <p className="mt-6 text-lg text-center max-w-3xl mx-auto text-slate-400">e sou desenvolvedor <span className="text-white font-bold">Front End</span></p>
         <ButtonContact />
       </div> 
       {isOpen &&

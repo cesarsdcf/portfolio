@@ -13,7 +13,7 @@ export const FormContact = () => {
     name: z.string().nonempty('Preencha esse campo!'),
     email: z.string().nonempty('Preencha esse campo!').email('E-mail inválido'),
     subject: z.string().nonempty('Preencha esse campo!').max(100),
-    message: z.string().nonempty('Preencha esse campo!').max(300)
+    message: z.string().nonempty('Preencha esse campo!').max(600)
   })
 
   const { 
@@ -51,7 +51,7 @@ export const FormContact = () => {
   return (
     <div>
       <div>
-        <h3 className="text-5xl font-bold">Contato</h3>
+        <h3 className="text-3xl font-bold">Contato</h3>
         <p className="font-extralight mt-4">Por favor, preencha este formulário e entrarei em contato com você por e-mail!</p>
       </div>
       <form onSubmit={handleSubmit(handleForm)} className="bg-white mt-7">
@@ -103,14 +103,14 @@ export const FormContact = () => {
           </label>
           <textarea
             {...register('message')}
-            className={`shadow appearance-none border ${errors.message && 'border-red-500'}rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline`}
+            className={`shadow appearance-none border ${errors.message && 'border-red-500'} h-64 w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline`}
             id="message" />
           <p className="text-red-500 text-xs italic">
             {errors.message && errors.message.message}
           </p>
         </div>
         <button
-          className='m-auto font-semibold mt-12 bg-red-500 py-4 px-10 rounded-md text-sm tracking-widest hover:bg-red-700 duration-150 text-white'
+          className='m-auto font-semibold bg-red-500 py-4 px-10 rounded-md text-sm tracking-widest hover:bg-red-700 duration-150 text-white'
           type="submit">{isLoading ?
             <>
               <LoadingIcon />
