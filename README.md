@@ -1,6 +1,12 @@
-
-##Bem-vindo ao meu portfólio pessoal!
+# Bem-vindo ao meu portfólio pessoal!
 
 Aqui você encontrará uma seleção dos meus projetos, nos quais tenho trabalhado para aprimorar minhas habilidades de desenvolvimento. Este portfólio é uma forma de compartilhar meu trabalho e oferecer uma visão geral das minhas competências.
 
-Além disso, este portfólio também serve como uma maneira de entrar em contato comigo. Fique à vontade para enviar um e-mail clicando no botão CONTATO se tiver alguma pergunta, sugestão ou oportunidade de colaboração. Adoro receber feedback e estou sempre aberto a novas ideias e desafios interessantes.
+## Contato
+
+Se você tiver alguma pergunta, sugestão ou oportunidade de colaboração, fique à vontade para entrar em contato comigo:
+
+- E-mail: [cesarfilhoslv@hotmail.com](mailto:cesarfilhoslv@gmail.com)
+- LinkedIn: [https://www.linkedin.com/in/cesar-silva-950126232/](https://www.linkedin.com/in/cesar-silva-950126232/)
+
+Agradeço por visitar meu portfólio pessoal e espero que você goste de explorar meus projetos. Estou animado para compartilhar meu trabalho e espero poder colaborar em projetos futuros.
