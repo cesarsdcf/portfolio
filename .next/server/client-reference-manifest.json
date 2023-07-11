@@ -230,6 +230,118 @@
         "async": false
       }
     },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/ButtonContact.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/ButtonContact.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/ButtonContact.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "ButtonContact": {
+        "id": "(sc_client)/./src/components/ButtonContact.tsx",
+        "name": "ButtonContact",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/components/Header.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./src/components/Header.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./src/contexts/formContact/context.tsx": {
+      "*": {
+        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
+        "name": "*",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
+        "name": "",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ModalContext": {
+        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
+        "name": "ModalContext",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      },
+      "ModalContextProvider": {
+        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
+        "name": "ModalContextProvider",
+        "chunks": [
+          "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/image.js": {
       "*": {
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
@@ -252,32 +364,6 @@
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -341,102 +427,16 @@
         ],
         "async": false
       }
-    },
-    "(app-client)/./src/contexts/formContact/context.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "ModalContext": {
-        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
-        "name": "ModalContext",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "ModalContextProvider": {
-        "id": "(sc_client)/./src/contexts/formContact/context.tsx",
-        "name": "ModalContextProvider",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/ButtonContact.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/ButtonContact.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/ButtonContact.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "ButtonContact": {
-        "id": "(sc_client)/./src/components/ButtonContact.tsx",
-        "name": "ButtonContact",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./src/components/Header.tsx": {
-      "*": {
-        "id": "(sc_client)/./src/components/Header.tsx",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./src/components/Header.tsx",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./src/components/Header.tsx",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
     }
   },
   "edgeSSRModuleMapping": {},
   "cssFiles": {
-    "/Users/cesar/Code/Projects/portfolio/src/app/layout": [
+    "/Users/cesar/Code/portfolio/src/app/layout": [
       "static/css/app/layout.css"
     ]
   },
   "clientModules": {
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/app-router.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -444,7 +444,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/app-router.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/app-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "*",
       "chunks": [
@@ -452,7 +452,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/app-router.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -460,7 +460,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/app-router.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/app-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "",
       "chunks": [
@@ -468,7 +468,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/app-router.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -476,7 +476,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/app-router.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/app-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "default",
       "chunks": [
@@ -484,15 +484,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
-      "name": "getServerActionDispatcher",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/app-router.js#getServerActionDispatcher": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "getServerActionDispatcher",
       "chunks": [
@@ -500,7 +492,15 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/app-router.js#getServerActionDispatcher": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
+      "name": "getServerActionDispatcher",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -508,7 +508,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/app-router.js#urlToUrlWithoutFlightMarker": {
       "id": "(app-client)/./node_modules/next/dist/client/components/app-router.js",
       "name": "urlToUrlWithoutFlightMarker",
       "chunks": [
@@ -516,7 +516,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/error-boundary.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -524,7 +524,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "*",
       "chunks": [
@@ -532,7 +532,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/error-boundary.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -540,7 +540,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "",
       "chunks": [
@@ -548,7 +548,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/error-boundary.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -556,7 +556,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "default",
       "chunks": [
@@ -564,15 +564,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
-      "name": "ErrorBoundaryHandler",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundaryHandler": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundaryHandler",
       "chunks": [
@@ -580,7 +572,15 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundaryHandler": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
+      "name": "ErrorBoundaryHandler",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -588,7 +588,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/error-boundary.js#ErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/error-boundary.js",
       "name": "ErrorBoundary",
       "chunks": [
@@ -596,7 +596,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/redirect-boundary.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -604,7 +604,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "*",
       "chunks": [
@@ -612,7 +612,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -620,7 +620,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "",
       "chunks": [
@@ -628,7 +628,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -636,7 +636,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "default",
       "chunks": [
@@ -644,15 +644,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
-      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
-      "name": "RedirectErrorBoundary",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#RedirectErrorBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectErrorBoundary",
       "chunks": [
@@ -660,7 +652,15 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectErrorBoundary": {
+      "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
+      "name": "RedirectErrorBoundary",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -668,7 +668,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/redirect-boundary.js#RedirectBoundary": {
       "id": "(app-client)/./node_modules/next/dist/client/components/redirect-boundary.js",
       "name": "RedirectBoundary",
       "chunks": [
@@ -676,7 +676,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -684,7 +684,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "*",
       "chunks": [
@@ -692,7 +692,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -700,7 +700,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "",
       "chunks": [
@@ -708,7 +708,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -716,7 +716,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/router-reducer/fetch-server-response.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/router-reducer/fetch-server-response.js",
       "name": "default",
       "chunks": [
@@ -724,7 +724,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -732,7 +732,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "*",
       "chunks": [
@@ -740,7 +740,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -748,7 +748,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "",
       "chunks": [
@@ -756,7 +756,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -764,7 +764,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#CacheStates": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "CacheStates",
       "chunks": [
@@ -772,7 +772,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -780,7 +780,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#AppRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "AppRouterContext",
       "chunks": [
@@ -788,7 +788,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -796,7 +796,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#LayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "LayoutRouterContext",
       "chunks": [
@@ -804,7 +804,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -812,7 +812,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#GlobalLayoutRouterContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "GlobalLayoutRouterContext",
       "chunks": [
@@ -820,7 +820,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -828,7 +828,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/app-router-context.js#TemplateContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/app-router-context.js",
       "name": "TemplateContext",
       "chunks": [
@@ -836,7 +836,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -844,7 +844,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "*",
       "chunks": [
@@ -852,7 +852,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -860,7 +860,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "",
       "chunks": [
@@ -868,15 +868,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
-      "name": "SearchParamsContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js#SearchParamsContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "SearchParamsContext",
       "chunks": [
@@ -884,7 +876,15 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#SearchParamsContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
+      "name": "SearchParamsContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -892,7 +892,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/hooks-client-context.js#PathnameContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/hooks-client-context.js",
       "name": "PathnameContext",
       "chunks": [
@@ -900,7 +900,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -908,7 +908,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "*",
       "chunks": [
@@ -916,7 +916,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -924,7 +924,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "",
       "chunks": [
@@ -932,15 +932,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
-      "name": "ServerInsertedHTMLContext",
-      "chunks": [
-        "webpack:static/chunks/webpack.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "ServerInsertedHTMLContext",
       "chunks": [
@@ -948,7 +940,15 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#ServerInsertedHTMLContext": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
+      "name": "ServerInsertedHTMLContext",
+      "chunks": [
+        "webpack:static/chunks/webpack.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -956,7 +956,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/server-inserted-html.js#useServerInsertedHTML": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/server-inserted-html.js",
       "name": "useServerInsertedHTML",
       "chunks": [
@@ -964,7 +964,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/layout-router.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -972,7 +972,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/layout-router.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/layout-router.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "*",
       "chunks": [
@@ -980,7 +980,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/layout-router.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -988,7 +988,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/layout-router.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/layout-router.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "",
       "chunks": [
@@ -996,7 +996,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/layout-router.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1004,7 +1004,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/layout-router.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/layout-router.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/layout-router.js",
       "name": "default",
       "chunks": [
@@ -1012,7 +1012,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/render-from-template-context.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1020,7 +1020,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "*",
       "chunks": [
@@ -1028,7 +1028,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/render-from-template-context.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1036,7 +1036,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "",
       "chunks": [
@@ -1044,7 +1044,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/render-from-template-context.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1052,7 +1052,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/render-from-template-context.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/render-from-template-context.js",
       "name": "default",
       "chunks": [
@@ -1060,7 +1060,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1068,7 +1068,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "*",
       "chunks": [
@@ -1076,7 +1076,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1084,7 +1084,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "",
       "chunks": [
@@ -1092,7 +1092,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1100,7 +1100,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/components/static-generation-searchparams-bailout-provider.js#default": {
       "id": "(app-client)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js",
       "name": "default",
       "chunks": [
@@ -1108,237 +1108,69 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/image.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/image.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/image.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/image.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/client/link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/head.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/head.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/head.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
-      "name": "defaultHead",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/components/FixedButton.tsx": {
-      "id": "(app-client)/./src/components/FixedButton.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/components/FixedButton.tsx#": {
-      "id": "(app-client)/./src/components/FixedButton.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/components/FixedButton.tsx#FixedButton": {
-      "id": "(app-client)/./src/components/FixedButton.tsx",
-      "name": "FixedButton",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/contexts/formContact/context.tsx": {
-      "id": "(app-client)/./src/contexts/formContact/context.tsx",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/contexts/formContact/context.tsx#": {
-      "id": "(app-client)/./src/contexts/formContact/context.tsx",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/contexts/formContact/context.tsx#ModalContext": {
-      "id": "(app-client)/./src/contexts/formContact/context.tsx",
-      "name": "ModalContext",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/contexts/formContact/context.tsx#ModalContextProvider": {
-      "id": "(app-client)/./src/contexts/formContact/context.tsx",
-      "name": "ModalContextProvider",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "/Users/cesar/Code/Projects/portfolio/src/app/globals.css#": {
+    "/Users/cesar/Code/portfolio/src/app/globals.css#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/Users/cesar/Code/Projects/portfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
+    "/Users/cesar/Code/portfolio/node_modules/next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}#": {
       "id": "null",
       "name": "default",
       "chunks": [
         "static/css/app/layout.css"
       ]
     },
-    "/Users/cesar/Code/Projects/portfolio/src/components/ButtonContact.tsx": {
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/components/ButtonContact.tsx": {
       "id": "(app-client)/./src/components/ButtonContact.tsx",
       "name": "*",
       "chunks": [
@@ -1346,7 +1178,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/src/components/ButtonContact.tsx#": {
+    "/Users/cesar/Code/portfolio/src/components/ButtonContact.tsx#": {
       "id": "(app-client)/./src/components/ButtonContact.tsx",
       "name": "",
       "chunks": [
@@ -1354,7 +1186,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/src/components/ButtonContact.tsx#ButtonContact": {
+    "/Users/cesar/Code/portfolio/src/components/ButtonContact.tsx#ButtonContact": {
       "id": "(app-client)/./src/components/ButtonContact.tsx",
       "name": "ButtonContact",
       "chunks": [
@@ -1362,7 +1194,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/src/components/Header.tsx": {
+    "/Users/cesar/Code/portfolio/src/components/Header.tsx": {
       "id": "(app-client)/./src/components/Header.tsx",
       "name": "*",
       "chunks": [
@@ -1370,7 +1202,7 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/src/components/Header.tsx#": {
+    "/Users/cesar/Code/portfolio/src/components/Header.tsx#": {
       "id": "(app-client)/./src/components/Header.tsx",
       "name": "",
       "chunks": [
@@ -1378,11 +1210,179 @@
       ],
       "async": false
     },
-    "/Users/cesar/Code/Projects/portfolio/src/components/Header.tsx#default": {
+    "/Users/cesar/Code/portfolio/src/components/Header.tsx#default": {
       "id": "(app-client)/./src/components/Header.tsx",
       "name": "default",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/contexts/formContact/context.tsx": {
+      "id": "(app-client)/./src/contexts/formContact/context.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/contexts/formContact/context.tsx#": {
+      "id": "(app-client)/./src/contexts/formContact/context.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/contexts/formContact/context.tsx#ModalContext": {
+      "id": "(app-client)/./src/contexts/formContact/context.tsx",
+      "name": "ModalContext",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/contexts/formContact/context.tsx#ModalContextProvider": {
+      "id": "(app-client)/./src/contexts/formContact/context.tsx",
+      "name": "ModalContextProvider",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/image.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/image.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/client/image.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/image.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/head.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/head.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/head.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/node_modules/next/dist/esm/shared/lib/head.js#defaultHead": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/head.js",
+      "name": "defaultHead",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/components/FixedButton.tsx": {
+      "id": "(app-client)/./src/components/FixedButton.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/components/FixedButton.tsx#": {
+      "id": "(app-client)/./src/components/FixedButton.tsx",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/cesar/Code/portfolio/src/components/FixedButton.tsx#FixedButton": {
+      "id": "(app-client)/./src/components/FixedButton.tsx",
+      "name": "FixedButton",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
       ],
       "async": false
     }
